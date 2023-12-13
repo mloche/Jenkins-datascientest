@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-  return {"Hello":"We Love datascientest, adn we dit it ! We built a CI-CD pipeline !!"}
+  return {"Hello":"We Love datascientest, adn we dit it ! We built a CI-CD pipeline !"}
